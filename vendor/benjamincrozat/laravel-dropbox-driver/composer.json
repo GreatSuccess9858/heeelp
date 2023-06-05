@@ -1,0 +1,61 @@
+{
+    "name": "benjamincrozat/laravel-dropbox-driver",
+    "description": "Dropbox storage driver for Laravel.",
+    "homepage": "https://github.com/benjamincrozat/laravel-dropbox-driver",
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "Benjamin Crozat",
+            "email": "hello@benjamincrozat.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/benjamincrozat/laravel-dropbox-driver/issues"
+    },
+    "keywords": ["driver", "dropbox", "laravel", "storage"],
+    "require": {
+        "php": "^8.1",
+        "illuminate/contracts": "^9.0",
+        "spatie/flysystem-dropbox": "^2.0"
+    },
+    "require-dev": {
+        "nunomaduro/collision": "^6.0",
+        "orchestra/testbench": "^7.0",
+        "pestphp/pest": "^1.21",
+        "pestphp/pest-plugin-laravel": "^1.1",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "BenjaminCrozat\\Laravel\\Dropbox\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BenjaminCrozat\\Laravel\\Dropbox\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": "@php ./vendor/bin/testbench package:discover --ansi",
+        "analyse": "vendor/bin/phpstan analyse",
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BenjaminCrozat\\Laravel\\Dropbox\\DropboxServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

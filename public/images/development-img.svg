@@ -1,0 +1,26 @@
+<svg width="605" height="500" viewBox="0 0 605 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_30_482)">
+<path d="M162.147 114.667L162.135 114.768L162.143 114.87L165.898 159.927L165.898 232.613L12.8718 228.439L12.8718 119.015L12.8718 118.936L12.8594 118.858L5.54626 72.938L10.9606 52.0883L10.9876 51.9843L10.9919 51.8769L12.8318 5.87983L165.898 9.1267L165.898 83.7214L162.147 114.667Z" fill="#5ED9FF" stroke="#004458" stroke-width="2"/>
+<path d="M166.898 231.761C129.102 233.014 51.4786 228.473 12.8113 228.473" stroke="#004458" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M14.7434 368.563L14.7557 368.665L14.7472 368.766L10.9924 413.824L10.9924 486.509L164.019 482.336L164.019 372.966L159.327 329.8L159.306 329.611L159.357 329.427L165.893 305.618L164.056 259.715L10.9924 253.118L10.9924 337.618L14.7434 368.563Z" fill="#5ED9FF" stroke="#004458" stroke-width="2"/>
+<path d="M9.99256 485.658C47.7885 486.91 125.412 482.369 164.079 482.369" stroke="#004458" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M442.358 114.667L442.37 114.768L442.362 114.87L438.607 159.927L438.607 232.613L591.634 228.439L591.634 119.069L586.942 75.9036L586.921 75.7144L586.971 75.5308L593.507 51.7219L591.674 5.87983L438.607 9.1267L438.607 83.7214L442.358 114.667Z" fill="#5ED9FF" stroke="#004458" stroke-width="2"/>
+<path d="M437.607 231.761C475.403 233.014 553.027 228.473 591.694 228.473" stroke="#004458" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M593.513 337.678L593.513 337.78L593.533 337.879L599.985 369.333L593.523 413.638L593.513 413.709L593.513 413.782L593.513 486.509L440.421 482.334L433.146 377.846L440.476 328.146L440.505 327.949L440.456 327.756L433.163 298.811L440.317 259.773L593.513 263.023L593.513 337.678Z" fill="#5ED9FF" stroke="#004458" stroke-width="2"/>
+<path d="M594.513 485.658C556.717 486.91 479.093 482.369 440.426 482.369" stroke="#004458" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M197.321 255.677L197.327 255.61L197.323 255.543L192 158.584L192 1.04224L409.648 10.0518L409.648 246.469L402.995 339.378L402.986 339.504L403.008 339.628L412.308 391.05L409.675 490.968L192 483.96L192 322.315L197.321 255.677Z" fill="#5ED9FF" stroke="#004458" stroke-width="2"/>
+<path d="M191 4.04125C244.551 1.34713 354.532 11.1131 409.317 11.1131" stroke="#004458" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<filter id="filter0_d_30_482" x="0.525879" y="0" width="604.474" height="500" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_30_482"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_30_482" result="shape"/>
+</filter>
+</defs>
+</svg>
